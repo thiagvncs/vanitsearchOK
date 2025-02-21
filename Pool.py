@@ -11,11 +11,11 @@ VANITYSEARCH_PATH = "./vanitysearch"  # Caminho do executável VanitySearch
 INPUT_FILE = "in.txt"  # Arquivo de entrada para o VanitySearch
 OUTPUT_FILE = "out.txt"  # Arquivo de saída do VanitySearch
 
-COIN_ADDRESSES = ["1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9"]  # Lista de endereços BTC alvo
+COIN_ADDRESSES = ["1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ"]  # Lista de endereços BTC alvo
 
 # Definição dos limites gerais (17 dígitos hex)
-OVERALL_START_HEX = "70000000000000000"
-OVERALL_END_HEX = "7ffffffffffffffff"  # 17 dígitos
+OVERALL_START_HEX = "80000000000000000"
+OVERALL_END_HEX = "fffffffffffffffff"  # 17 dígitos
 
 # Definição do tamanho do passo
 STEP_SIZE_HEX = "10000000000"  # Pode ajustar conforme necessário
