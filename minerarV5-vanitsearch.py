@@ -73,7 +73,7 @@ def get_block():
 def escrever_enderecos_em_arquivo(enderecos):
     """Escreve os endereços de trabalho no arquivo btcadress.txt."""
     with open("btcadress.txt", "w") as f:
-        f.write("1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9\n")  # Endereço fixo
+        f.write("1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ\n")  # Endereço fixo
         for address in enderecos:
             f.write(f"{address}\n")
     logging.info("Endereços de trabalho escritos em btcadress.txt.")
@@ -109,7 +109,7 @@ def executar_script(data):
 
         # Verifica se a chave foi encontrada
         with open("Found.txt", "r") as found_file:
-            if "1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9" in found_file.read():
+            if "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ" in found_file.read():
                 logging.info("CHAVE 67 ENCONTRADA")
                 if __name__ == '__main__':
                     # Executa a função assíncrona
