@@ -110,7 +110,7 @@ def executar_script(data):
         # Verifica se a chave foi encontrada
         with open("Found.txt", "r") as found_file:
             if "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ" in found_file.read():
-                logging.info("CHAVE 67 ENCONTRADA")
+                logging.info("CHAVE 68 ENCONTRADA")
                 if __name__ == '__main__':
                     # Executa a função assíncrona
                     asyncio.run(enviar_arquivo_txt())
