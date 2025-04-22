@@ -12,6 +12,12 @@ CXXCUDA    = /usr/bin/g++-9
 
 NVCC       = nvcc
 
+sudo apt install python3-venv
+
+python3 -m venv myenv
+
+source myenv/bin/activate
+
 sudo apt install g++-9 -y
 
 sudo apt install build-essential -y
@@ -19,6 +25,8 @@ sudo apt install build-essential -y
 sudo apt install libssl-dev -y
 
 sudo apt install libgmp-dev -y
+
+pip install python-telegram-bot
 
 make clean
 
