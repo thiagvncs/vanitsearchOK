@@ -11,7 +11,7 @@ This is a modified version of VanitySearch by [JeanLucPons](https://github.com/J
     ...
     
     CXX        = g++-9
-    CUDA       = /usr/local/cuda-11.7
+    CUDA       = /usr/local/cuda-12.6
     CXXCUDA    = /usr/bin/g++-9
     ```
 
@@ -21,9 +21,9 @@ This is a modified version of VanitySearch by [JeanLucPons](https://github.com/J
     ```
 
 # Usage
-- Example for bitcoin puzzle 66
+- Example
     ```
-    ./vanitysearch -t 0 -gpu -gpuId 0 -i in.txt -o out.txt --keyspace 20000000000000000:+FFFFFFFFFF
+    ./vanitysearch -t 0 -gpu -gpuId 0 -i in.txt -o out.txt --keyspace 20000000000000000:FFFFFFFFFF
     ```
 
     ```
