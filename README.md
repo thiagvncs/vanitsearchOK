@@ -2,7 +2,13 @@ Editar Makefile
 
 gpu=1
 
-ccap=75 De acordo com sua GPU Nvidia
+ccap=75 De acordo com sua GPU Nvidia RTX2060
+
+ccap=86 De acordo com sua GPU Nvidia RTX3060
+
+ccap=89 De acordo com sua GPU Nvidia RTX4090
+
+ccap=120 De acordo com sua GPU Nvidia RTX5090
 
 CXX        = g++-9
 
